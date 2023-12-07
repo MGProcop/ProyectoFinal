@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Harshita'; 
+    src: url('../fonts/Harshita.ttf') format('truetype'); }
+@font-face {
+        font-family: 'Hattori'; 
+        src: url('../fonts/Hattori\ Hanzo.otf') format('truetype'); }
+@font-face {
+        font-family: 'Hattori cursive'; 
+        src: url('../fonts/Hattori\ Hanzo\ Italic.otf') format('truetype'); }
+
+.cabecera {
+display: flex;
+background: #E59651 ;
+height: 170px;
+flex-wrap: wrap;}
+
+.ul { 
+    display: flex;
+    list-style: none;
+    text-align: center;
+    flex-wrap: wrap;}
+
+.img1 { 
+    width: 150px;
+    height: 140px;}
+
+.cabecera li {
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 70px;}
+
+.section1 { 
+    background: url('../Assets/imagen1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.h1{
+    font-family: Harshita, cursive;
+    font-size: 110px;
+    max-width: 600px; 
+    margin: 20px;
+   font-weight: 100;}
+
+
+.parrafo1 {
+
+    font-size: 80px;
+    max-width: 600px; 
+    margin: 20px;}
+    
+    .contenedor h2 {
+        float: left;
+        width: 40%; 
+    }
+    
+    .contenedor p {
+        margin-left: 52%; 
+        box-sizing: border-box;
+        margin-top: 7%;
+    }
+
+.h2{ 
+    font-family: Harshita, cursive;
+    font-size: 60px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.p2{ 
+    font-family: Hattori, sans;
+    font-size: 25px;
+    border-left: 2px solid  #D0872E ;
+    padding-left: 10px;
+    margin-right: 12%;
+ }
+
+ .carrusel {
+    position: relative;
+    width: 110%;
+    max-width: 800px; 
+    margin: auto;
+    margin-top: 7%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input:checked + .slide {
+    display: block;
+    animation: fade 1.5s ease-in-out;
+}
+
+.navegacion {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+label {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+}
+
+input:checked + .navegacion label {
+    background: #333;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+ .h3{
+    font-family: Harshita, cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+ }
+
+.p3{
+    font-family: Hattori, sans;
+    font-size: 23px;
+    text-align:justify;
+    justify-content:center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sectionSus {
+    display: flex;
+    flex-direction: row;
+    background-color: #D0872E;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.imgcommunity { 
+    width: 29%;
+    height: 29%;
+}
+
+.h4 {
+    font-family: Harshita, cursive;
+    text-align: right;
+    font-size: 38px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+.p4 {
+    font-family: Hattori, sans;
+    text-align: justify;
+    font-size: 23px;
+    margin-left: 4%;
+    margin-top: 7%;
+    margin-right:3%;
+}
+
+
+.h5 { 
+    font-family: Harshita, cursive;
+    margin-left: 6%;
+    margin-top: 8%;
+    text-align: left;
+    font-size: 180%;
+}
+.p5 {
+    font-family: Hattori, sans;
+    font-size: 140% ;
+    margin-left: 5%;
+}
+
+
+.finalbody {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+
+.button {
+    font-family: Hattori cursive;
+    font-size: 15px;
+    background-color: #F8F7ED;
+    border-radius: 7px ;
+    padding: 15px 25px;
+    margin-left: 3%;
+}
+
+.footer1 {
+    margin-top: 8%;
+    background-color: #E59651;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.listfinal{ 
+    list-style: none;
+    font-family: Harshita, cursive;
+    font-size: 22px;
+    margin-top: 5%;
+    padding-top: 60px;
+}
+
+.liff{
+    font-family: Hattori cursive;
+    font-size: 15px;
+}
+
+.derechos{
+    font-family: Hattori cursive;
+    font-size: 10px;
+    text-align: right;
+    display: block;
+}
